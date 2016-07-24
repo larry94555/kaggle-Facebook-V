@@ -16,7 +16,7 @@ When you submit this file, the reported result will be 0.62865.  The weights use
 
 [markus's best model][markus]:  44
 
-[markus's quick model][markus] (the first model "Version 1"):  14
+[markus's quick model][markus] (the "Version 1" model):  14
 
 [Qingchen's alternative model][qingchen] (using week number): 7
 
@@ -28,5 +28,5 @@ When you submit this file, the reported result will be 0.62865.  The weights use
 
 [ttvand]:https://github.com/ttvand/Facebook-V
 [markus]:https://github.com/mkliegl/kaggle-Facebook-V
-[qingcheck]:https://www.kaggle.com/c/facebook-v-predicting-check-ins/forums/t/22123/6th-place-kernel-density-estimation/126440#post126440
+[qingchen]:https://www.kaggle.com/c/facebook-v-predicting-check-ins/forums/t/22123/6th-place-kernel-density-estimation/126440#post126440
 [larry]:https://www.kaggle.com/c/facebook-v-predicting-check-ins/forums/t/22086/solution-sharing-i-got-to-23-with-xgb-rf-knn/126278#post126278
