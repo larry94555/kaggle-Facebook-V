@@ -24,11 +24,11 @@ def update_tally(preds,preds_per_row_id,weight):
 
 weighted_list = {}
 
-def score(filename,weight):
-    if not os.path.isfile('sorted_'+filename):
-        print filename+" has not been sorted.  Run python sort_csv.py "+filename
+def score(dir,filename,weight):
+    if not os.path.isfile(dir+'/sorted_'+filename):
+        print dir+'/'+filename+" has not been sorted.  Run python sort_all_csv.py"
         exit()
-    weighted_list['sorted_'+filename]=weight
+    weighted_list[dir+'/sorted_'+filename]=weight
     print("%s has weight %d" % (filename,weight))
     
 def get_predictions(preds_per_row_id,num=3):
@@ -67,13 +67,13 @@ def generate_predictions():
     df.index.rename('row_id',inplace=True)
     df.to_csv("ensembled_submission.csv")
 
-score("models/tom_model.csv",46)
-score("models/markus_best_model.csv",44)
-score("models/markus_quick_model.csv",14)
-score("models/qinchen_alternative_model.csv",7)
-score("models/xgb_feature_set1.csv",10)
-score("models/random_forest_entropy_feature_set2.csv",3)
-score("models/xgb_feature_set2.csv",12)
+score("models","tom_model.csv",46)
+score("models","markus_best_model.csv",44)
+score("models","markus_quick_model.csv",14)
+score("models","qingchen_alternative_model.csv",7)
+score("models","xgb_feature_set1.csv",10)
+score("models","random_forest_entropy_feature_set2.csv",3)
+score("models","xgb_feature_set2.csv",12)
         
 generate_predictions()
 
