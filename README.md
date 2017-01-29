@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-These are the scripts that I used for the Kaggle Facebook V Challenge
+These are the scripts that I used for the [Kaggle Facebook V Challenge](https://www.kaggle.com/c/facebook-v-predicting-check-ins)
 
 This repository includes the scripts needed to ensemble the winning csv file from Tom Van de Wiele, the cvs fies from Markus Kleigl, and others into a score of 0.62865.
 
