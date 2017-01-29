@@ -1,9 +1,12 @@
 # kaggle-Facebook-V
-Scripts for Kaggle Facebook V Challenge
+
+## Synopsis
+
+These are the scripts that I used for the Kaggle Facebook V Challenge
 
 This repository includes the scripts needed to ensemble the winning csv file from Tom Van de Wiele, the cvs fies from Markus Kleigl, and others into a score of 0.62865.
 
-Instructions:
+## Installation
 
 1.  clone this repository.
 2.  Run `python uncompress_all_models.py` to generate a directory models of uncompressed csv files.
@@ -30,3 +33,7 @@ When you submit this file, the reported result will be 0.62865.  The weights use
 [markus]:https://github.com/mkliegl/kaggle-Facebook-V
 [qingchen]:https://www.kaggle.com/c/facebook-v-predicting-check-ins/forums/t/22123/6th-place-kernel-density-estimation/126440#post126440
 [larry]:https://www.kaggle.com/c/facebook-v-predicting-check-ins/forums/t/22086/solution-sharing-i-got-to-23-with-xgb-rf-knn/126278#post126278
+
+## License
+
+All scripts are licensed by the [MIT License](https://opensource.org/licenses/MIT).
